@@ -1,0 +1,98 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Light grey on hover */
+}
+
+/* Form input styling */
+input[type="text"], input[type="number"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #d30000; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.add{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #f64747; /* Darker green */
+}
+
+button:disabled {
+    background-color: #ccc; /* Grey when disabled */
+    cursor: not-allowed;
+}
+
+/* Header styling */
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+  }
