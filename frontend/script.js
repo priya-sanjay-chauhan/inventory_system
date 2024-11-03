@@ -116,6 +116,8 @@ function populateForm(id, name, category, quantity, price, supplier) {
 
     const form = document.getElementById('add-product-form');
     form.dataset.productId = id; 
+
+    document.getElementById('submit-button').textContent = "Update Product";
 }
 
 // Update product
@@ -166,6 +168,8 @@ function resetForm() {
     document.getElementById('add-product-form').reset();
     clearErrors();
     delete document.getElementById('add-product-form').dataset.productId; 
+
+    document.getElementById('submit-button').textContent = "Add Product";
 }
 
 // Delete product
